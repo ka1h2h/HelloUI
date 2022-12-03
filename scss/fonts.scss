@@ -1,0 +1,9 @@
+$inter: 'Inter', sans-serif;
+
+@mixin header($fz, $lh) {
+    font-size: $fz;
+    line-height: $lh / $fz * 100%;
+    color: #050038;
+}
+
+

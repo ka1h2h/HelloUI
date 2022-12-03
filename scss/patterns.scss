@@ -1,0 +1,16 @@
+@import "fonts.scss";
+
+%primary-btn {
+    font-family: $inter;
+    @include header(18px, 21px);
+    font-weight: 500;
+    color: #FFFFFF;
+    width: 180px;
+    height: 50px;
+    background: #0555FF;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
