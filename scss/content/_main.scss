@@ -57,7 +57,7 @@
 
 .main__img-container {
     flex: 1 1 966px;
-    width: 966px;
+    max-width: 966px;
     height: 706px;
     position: relative;
     margin-bottom: 150px;
@@ -92,6 +92,39 @@
 .company__logo-box {
     margin-right: 51px;
 }
-.company__logo {
-
+@media (max-width: 1325px) {
+    .main__title {
+        font-size: calc(45px + 48 * (100vw / 1320));
+    }
+    .title__description {
+        font-size: calc(19px + 11 * (100vw / 1320));
+    }
 }
+
+@media (max-width: 1025px) {
+    .main__container {
+        padding: 0px 25px 0px 25px;
+    }
+    .main__img-container {
+        margin-bottom: 80px;
+    }
+    .our-clients__description {
+        margin-bottom: 45px;
+    }
+    .our-clients__companies {
+        display: block;
+       
+    }
+    .main__img-container {
+       
+
+      
+        
+    }
+    .company__logo-box {
+        margin: 0px 0px 30px 0px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
