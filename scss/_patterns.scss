@@ -14,3 +14,11 @@
     justify-content: center;
     text-align: center;
 }
+
+
+@media (max-width: 488px) {
+    %primary-btn {
+        font-size: calc(14px + (9 + 9 * 0.7) * ((100vw - 375px) / 1440));
+        border-radius: 20px;
+    }
+}
